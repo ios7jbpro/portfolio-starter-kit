@@ -15,7 +15,7 @@ export default function Page() {
         job. Just recently, I stopped though - it doesn't hype with me anymore. My blog’s where
         I dump my experiments, rants about stupid state of the internet, tips, and random
         discoveries, from clean app design to weird system hacks. If it runs on Android; 
-        I’ve probably poked at it. Twice. Maybe thrice.`}
+        I’ve probably poked at it. Twice. Maybe thrice.\n(I also like Ita)`}
       </p>
       <div className="my-8">
         <BlogPosts />
