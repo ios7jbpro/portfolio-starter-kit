@@ -1,0 +1,14 @@
+---
+title: 'A fix for the MSI laptops display flickering'
+publishedAt: '2025-02-06'
+summary: '(it isn't MSI's fault)'
+---
+
+[This issue](https://www.reddit.com/r/MSILaptops/comments/1gypnyo/laptop_display_flickering_at_bottom/) happens actually because Intel Panel Self Refresh is NOT on by default, which MSI laptop displays absolutely need while running on battery power as they dynamically change the refresh rate.
+
+## The "fix"
+Update to latest Intel Iris Xe drivers(32.x something), open the new Intel Graphics Software(32.x deprecates and deletes old graphics command center), go to the "Display" tab, and enable the following:
+
+![IntelPSR](https://raw.githubusercontent.com/ios7jbpro/portfolio-starter-kit/refs/heads/main/rawcontent/intelpsr.png)
+
+Yes, that is literally it. The fix is a switch away that is disabled for god knows why.
