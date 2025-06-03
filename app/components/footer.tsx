@@ -12,7 +12,7 @@ function ArrowIcon() {
         fill="currentColor"
       />
     </svg>
-  )
+  );
 }
 
 export default function Footer() {
@@ -48,6 +48,11 @@ export default function Footer() {
             target="_blank"
             href="https://vercel.com/templates/next.js/portfolio-starter-kit"
           >
+            <ArrowIcon />
+            <p className="ml-2 h-7">portfolio starter kit</p>
+          </a>
+        </li>
+      </ul>
     </footer>
-  )
+  );
 }
